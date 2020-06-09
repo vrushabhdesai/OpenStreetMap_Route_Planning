@@ -1,4 +1,4 @@
-# Route Planning Project
+# C++ Route Planning Project
 
 The following project is a part of Udacity’s C++ NanoDegree program. This project implements a A* route planner running on OpenStreetMap in C++.
 
