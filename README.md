@@ -48,8 +48,9 @@ The executable will be placed in the `build` directory. From within `build`, you
 ./OSM_A_star_search
 ```
 Or to specify a map file:
+eg:
 ```
-./OSM_A_star_search -f ../<your_osm_file.osm>
+./OSM_A_star_search -f ../Worcester_map.osm
 ```
 
 ## Testing
