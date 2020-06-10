@@ -57,6 +57,12 @@ int main(int argc, const char **argv)
     std::cin >> start_x>>start_y;
     std::cout<<"Enter the value of End: ";
     std::cin >>end_x>>end_y;
+    
+    if(start_x > 100 || start_y > 100 || end_x > 100 || end_y >100)
+    {
+        std::cout << "Error Please enter between 0-100"<<std::endl;
+    }else
+    {
     // Build Model.
     RouteModel model{osm_data};
 
@@ -77,4 +83,6 @@ int main(int argc, const char **argv)
         render.Display(surface);
     });
     display.begin_show();
+
+    }
 }
